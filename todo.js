@@ -8,7 +8,7 @@ function newtodo(){
 	newLI.onclick= function crossOut(){
 		newLI.style.textDecoration='line-through';
 			setTimeout(function(){
-             	listItems[i].style.display = "none";
+             	newLI.style.display = "none";
              	},1000);
          }; //HUZZAH! adds new onclick function to newly added items
 	};
