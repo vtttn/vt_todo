@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO DO LIST</title>
+
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script type="text/javascript" src='todo.js'></script>
+
+
+</head>
+<body>
+
+<h1>To Do List</h1>
+	<ul id="list">
+		<li onclick="crossOut(0)">first thing to do</li>
+		<li onclick="crossOut(1)">second thing to do</li>
+		<li onclick="crossOut(2)">third thing to do</li>
+		<li onclick="crossOut(3)">forth thing to do</li>
+		<li onclick="crossOut(4)">fifth thing to do</li>
+	</ul>
+	
+
+<!-- 
+	<ul id="list" onclick="crossOut()">
+		<li>first thing to do</li>
+		<li>second thing to do</li>
+		<li>third thing to do</li>
+		<li>forth thing to do</li>
+		<li>fifth thing to do</li>
+	</ul>
+ -->
+
+
+	<input type="text" id="newtodo" value="" name="new item" placeholder="add new to do item" />
+
+	<button onclick="newtodo()" onkeydown="newtodo()" name="add item" value="add" id='additem'>add</button>
+
+
+	<br><br>
+
+
+</body>
+</html>
