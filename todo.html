@@ -6,12 +6,14 @@
 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+	<link rel="stylesheet" type="text/css" href="todo.css">
+
 	<script type="text/javascript" src='todo.js'></script>
 
 
 </head>
 <body>
-
+<div class="container">
 <h1>To Do List</h1>
 	<ul id="list">
 		<li onclick="crossOut(0)">first thing to do</li>
@@ -20,7 +22,6 @@
 		<li onclick="crossOut(3)">forth thing to do</li>
 		<li onclick="crossOut(4)">fifth thing to do</li>
 	</ul>
-	
 
 <!-- 
 	<ul id="list" onclick="crossOut()">
@@ -36,9 +37,7 @@
 	<input type="text" id="newtodo" value="" name="new item" placeholder="add new to do item" />
 
 	<button onclick="newtodo()" onkeydown="newtodo()" name="add item" value="add" id='additem'>add</button>
-
-
-	<br><br>
+</div>	
 
 
 </body>

@@ -11,7 +11,8 @@ function newtodo(){
              	newLI.style.display = "none";
              	},1000);
          }; //HUZZAH! adds new onclick function to newly added items
-	};
+	}; 
+// figure out how to prevent null add
 
 
 // when enter key is pressed, new item list is added
@@ -23,18 +24,6 @@ document.onkeydown=function(){
 
 
 var listItems = document.getElementsByTagName('li');
-
-
-
-// listItems.addEventListener('click', crossOut(5))
-
-// function crossOut(){
-// 	for (i = 0; i < listItems.length; i++)
-// 	listItems[i].style.textDecoration='line-through';
-// }
-
-
- // working one but does not work for new added items
 
 function crossOut(i){
 	listItems[i].style.textDecoration='line-through';
